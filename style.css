@@ -1,0 +1,84 @@
+html {
+    margin-left: 50px;
+    background-color: rgb(238, 238, 238);
+}
+
+.title {
+    font-family: serif;
+    color: rgb(107, 193, 221);
+}
+
+fieldset {
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightblue;
+}
+
+#reset {
+    transition-duration: 0.15s;
+}
+
+#reset:hover {
+    background-color: rgb(146, 211, 255);
+    color: white;
+}
+
+#tabl {
+    margin-top: 20px;
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flag {
+    border: 1px solid black; 
+    background: black;
+    width: 30px;
+}
+
+#tabl td {
+    border: 1px solid black;
+    background-color: lightblue;
+    width: 30px;
+}
+
+#tabl tr {
+    height: 30px;
+}
+
+#remaining {
+    text-align: left;
+}
+
+#winOrLose {
+    text-align: left;
+}
+
+#timer {
+    text-align: left;
+}
+
+#highscore {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#highscore ol {
+    background: lightblue;
+    padding: 20px;
+}
+
+#highscore ol li {
+    background: rgb(202, 234, 245);
+    padding: 5px;
+    margin-left: 30px;
+    margin: 5px;
+}
+
+#highscoreTitle {
+    font-family: serif;
+    font-size: 25px;
+    color: rgb(107, 193, 221);
+}
