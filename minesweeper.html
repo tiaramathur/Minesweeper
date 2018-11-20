@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minesweeper :)</title>
+    <link rel="stylesheet" href='style.css'/>
+    <script 
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="mine.js"></script>
+</head>
+    <body>
+        <h1 class="title">Minesweeper</h1>
+            <fieldset>
+                Choose Rows (8-30):<br>
+                <input type="number" id="row"><br><br>
+                Choose Columns (8-40):<br>
+                <input type="number" id="col"><br><br>
+                Number of Mines:<br>
+                <input type="number" id="mines"><br><br>
+                <input type="submit" value="New Game!" id="reset">
+            </fieldset><br>
+        <div id="remaining"></div>
+        <div id="winOrLose"></div>
+        <div id="table"></div><br>
+        <div id="timer"></div><br>
+        <div id="highscore">
+            <div id="highscoreTitle">High Scores</div><ol> </ol></div>
+    </body>
+</html>
